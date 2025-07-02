@@ -1,4 +1,4 @@
-# Audio Transcription with Speaker Diarization
+# Voice Memo Transcriber
 
 A Python application that processes audio files to create speaker-aware, searchable transcripts using state-of-the-art AI models. All processing happens locally on your machine with professional-grade accuracy. Optimized for Apple Silicon MacBooks.
 
@@ -26,8 +26,8 @@ A Python application that processes audio files to create speaker-aware, searcha
 ### 1. Clone the repository
 
 ```bash
-git clone <repository-url>
-cd audio-transcriber
+git clone https://github.com/bcraavi/voice-memo-transcriber.git
+cd voice-memo-transcriber
 ```
 
 ### 2. Create a virtual environment
