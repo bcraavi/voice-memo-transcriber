@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "name": "Voice memo transcriber",
+  "container": ".devcontainer/devcontainer.json",
+  "runtime": "python",
+  "install": "bash .codex/setup.sh",
+  "check": "bash .codex/check.sh",
+  "start": null,
+  "test_scope": "source/configuration checks; no isolated application suite",
+  "limitations": [
+    "CPU development profile; no GPU, Apple MPS, microphone or model downloads during checks. Models and Hugging Face access are optional runtime configuration. Large ML dependencies may exceed small cloud VM disk/memory. No isolated tests."
+  ],
+  "required_network_domains": [
+    "pypi.org",
+    "files.pythonhosted.org",
+    "download.pytorch.org"
+  ]
+}
